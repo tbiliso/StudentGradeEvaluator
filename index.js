@@ -91,4 +91,18 @@ const calculateWeightedScore = (exam, homework, bonus = 0) =>{
   return Number(total.toFixed(2));
   
 };
-console.log(calculateWeightedScore(71, 43,7))
+// console.log(calculateWeightedScore(71, 43,7))
+
+// 2.3 isEligibleForRetake(score, attendance)
+// A student is eligible for a retake exam if their score is below 60 AND their attendance is at or
+// above 75 (percent). Returns a boolean.
+
+const isEligibleForRetake = (score, attendance) =>{
+  //პირველი ლოგიკა
+  return score <60 && attendance >= 75 && score!==null;
+  //მეორე ლოგიკა
+  // return score >= 60 
+  //   ? "Passed — no retake needed" 
+  //   : (attendance < 75 ? "Failed, but too many absences" : "Eligible for retake");
+}
+console.log(isEligibleForRetake(calculateWeightedScore(71, 43, 8), 76)); 
