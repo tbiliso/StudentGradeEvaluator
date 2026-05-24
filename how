@@ -1,0 +1,13 @@
+[33mcommit fbd6aa447e7f2ebc9dd9fda6c360024bdf1e0421[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: tbiliso <vakhoj@gmail.com>
+Date:   Sun May 24 00:28:00 2026 +0400
+
+    Calculate average. determine count of variables is 3 or 4
+
+[1mdiff --git a/StudentGradeEvaluator b/StudentGradeEvaluator[m
+[1mnew file mode 160000[m
+[1mindex 0000000..de809e8[m
+[1m--- /dev/null[m
+[1m+++ b/StudentGradeEvaluator[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit de809e89dd2e943c8b90c2ea52a4fe24c29c3be6[m
